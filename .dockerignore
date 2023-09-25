@@ -1,0 +1,22 @@
+# Ignore common Go build artifacts
+*.o
+*.a
+*.exe
+
+# Ignore Go test files
+*_test.go
+
+# Ignore version control directories
+.git
+.gitignore
+
+# Ignore text editor/IDE specific files
+.vscode/
+.idea/
+
+# Ignore Docker-related files (if any)
+Dockerfile
+.dockerignore
+
+# Ignore any other build artifacts or files not needed in the Docker image
+
